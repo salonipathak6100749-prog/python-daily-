@@ -1,0 +1,119 @@
+'''def fun():
+    print("HELLO,FYIT!!")
+fun()'''
+
+'''def message(a):
+    print(a)
+message("fyit")'''
+
+'''def area ():
+    r=5
+    areaa=3.14*r*r
+    print ("area of circle :=",areaa)
+area()'''
+
+'''def area ():
+    r=int(input("enter the radius:"))
+    areaa=3.14*r*r
+    print ("area of circle :=",areaa)
+area()'''
+
+'''def area (r):
+    areaa=3.14*r*r
+    print ("area of circle :=",areaa)
+area(5)'''
+
+'''def area(r):
+
+    areaa=3.14*r*r
+    print ("area of circle :=",areaa)
+r=int(input("Enter the radius : "))
+area(r)'''
+
+'''def circumference(r):
+    circumference.c=2*3.14*r
+    print("circumference of circle =",circumference.c)
+circumference(5)'''
+
+'''def area(b,h):
+    areaa =(1/2) *b*h
+    print ("area of triangle=",areaa)
+area(5,10)'''
+
+'''def primeter(l,b):
+   primeterr=2*(l+b)
+   print ("primeter of rectangle=",primeterr)
+primeter(7,10)'''
+
+'''def evenodd(n):
+    if (n%2==0):
+     print ("the number is even=",n)
+    else:
+
+     print ("the nnumber is odd=",n)
+n=int(input("Enter the number="))
+evenodd(n)'''
+
+
+'''def message():
+    print ("Hello FYIT")
+def message1():
+    message()
+message1()'''
+
+'''def add(a,b):
+    sum=a+b
+    print("add=",sum)
+def add1(a,b):
+     add(a,b)
+a=int(input("Enter the number ="))
+b=int(input ("Enter the number ="))
+add1(a,b)'''
+
+
+'''def volume(l):
+    volume_of_cube=l**3
+    print ("volume of cube=",volume_of_cube)
+def volume1(l):
+    volume(l)
+l=float(input("enter the number="))
+volume1(l)'''
+
+
+'''def volume(r):
+    volumem=(4/3)*3.14*r**3
+    print ("volume of sphere=",volumem)
+def volume1(r):
+    volume(r)
+r=float(input("Enter the radius ="))
+volume1(r)'''
+
+'''def volume(r,h):
+    volumem=3.14*r**2*h
+    print ("volume of cylinder=",volumem)
+def volume1(r,h):
+    volume(r,h)
+r=float(input("Enter the radius ="))
+h=float(input("Enter the height="))
+volume1(r,h)'''
+
+'''def max(a,b):
+    if(a>b): 
+     print ("maximum=",a)
+    else:
+        print("maximum=",b)
+    
+def max1(a,b):
+    max(a,b)
+max1(2,5)'''
+
+
+'''def num(a,b,c):
+    average=(a+b+c)/3
+    print ("average of three number=",average)
+def num1(a,b,c):
+    num(a,b,c)
+a=int(input("enter the number="))
+b=int(input("enter the number="))
+c=int(input("enter the number="))
+num1(a,b,c)''' 
